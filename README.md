@@ -6,7 +6,7 @@ Requerimientos: Hay que crear una estructura de carpetas de la siguiente forma (
 
 /volume1/docker/folderclone/git_repo --> Directorio raíz donde alojarás las carpetas de los dos proyectos (fcmanager y folderclone)
 
-/volume1/docker/folderclone/sas_packs ---> Aquí deberás alojar una carpeta para cada cuenta con la que quieras trabajar, tendrán que llamarse "{nombrecuenta}_config", y deberán contener para empezar los archivos de credenciales credentials.json y token.json. No obstante, los accounts se crearán en /volume1/docker/folderclone/git_repo/folderclone/{nombrecuenta}_config (es la carpeta que utilizará el proyecto folderclone para crear las imágenes Docker)
+/volume1/docker/folderclone/sas_packs ---> Aquí deberás alojar una carpeta para cada cuenta con la que quieras trabajar, tendrán que llamarse "{nombrecuenta}_config", y deberán contener para empezar los archivos de credenciales credentials.json y token.json. No obstante, los accounts se crearán en /volume1/docker/folderclone/git_repo/folderclone/{nombrecuenta}_config (es la carpeta que utilizará el proyecto folderclone para crear las imágenes Docker). Una vez tengas todos los accounts allí, lo ideal es copiartelos a sas_packs, así te los quedas allí como referencia para siempre.
 
 /volume1/docker/folderclone/git_repo/fcmanager ---> Alojar contenido descargado del GIT aquí. Habrá los sh de creación de proyectos y creación de cuentas+keys. También contiene un readme.txt con los comandos de ejemplo.
 
