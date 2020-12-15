@@ -2,6 +2,10 @@
 
 cd /volume1/docker/folderclone/fcmanager
 
+Empezar por aquí:
+https://developers.google.com/sheets/api/quickstart/python
+Descargar credentials.json y ponerlos en /sas_packs/{nombre_cuenta}_config
+
 	>> primera configuración:
 
 ./first_config.sh [nombre_cuenta]
